@@ -1,3 +1,4 @@
+import 'Stylesheet/base.scss';
 import api from 'Libs/api';
 
 window.addEventListener('DOMContentLoaded', async () => {

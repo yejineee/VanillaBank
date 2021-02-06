@@ -1,0 +1,11 @@
+@import './variable.scss';
+
+#header {
+  display: flex;
+  position: fix;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  
+  background: $main;
+}
