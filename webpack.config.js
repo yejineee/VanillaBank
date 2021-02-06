@@ -54,6 +54,10 @@ module.exports = {
         name: 'yejin',
         password: 'mypwd',
       }),
+      LOGIN_PROD_DEFAULT: JSON.stringify({
+        name: '',
+        password: '',
+      }),
     }),
   ],
   resolve: {
