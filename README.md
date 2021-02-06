@@ -1,11 +1,12 @@
-# javascript-w5-accountbook
-스프린트 5-6주차 웹 프로젝트 - 가계부
+# VanillaBank
+- vanilla js와 MobX 학습에 집중한 가계부 프로젝트
 
 ## ✨ 서버
-http://101.101.208.133/
 
 ## ✍️ 개발 내용 정리
-### <BE>
+<details>
+<summary>BE</summary>
+
 #### Day1
 
 - [x] 초기 환경 설정 
@@ -36,28 +37,8 @@ http://101.101.208.133/
 #### Day5
 - [x] passport local, jwt를 통한 인증
 
-### <FE>
+</details>
 
-#### Day6 
-- [x] 라우팅 학습
-- [x] observer pattern 학습
-- [x] 상태관리와 immutable 학습
 
-#### Day7
-- [x] observer pattern 구상 및 구현
-- [x] 로그인 구현
-- [x] 네비게이션 Html 렌더링
-- [x] 결제내역 입력 폼 Html 렌더링
-
-#### Day8
-- [x] observer pattern 수정 및 구현
-- [x] 결제내역 모델 상태 관리 구현
-- [x] 결제내역 및 유틸리티 함수 테스트 코드 작성
-
-#### Day9 
-- [x] 결제 내역 리스트 구현
-- [x] 결제 내역 필터링 구현
-- [x] 결제 내역 생성 폼에서 수입, 지출에 따라 다른 카테고리 보여주는 것 구현
-- [x] observer pattern 사용하여 탭 구현
 
 
