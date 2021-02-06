@@ -12,6 +12,7 @@ module.exports = {
     filename: '[name].js',
   },
   devtool: 'cheap-module-eval-source-map',
+  watch: true,
   module: {
     rules: [
       {

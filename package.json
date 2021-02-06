@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run dev:server\" \"npx webpack --watch\"",
+    "dev": "concurrently \"npm run dev:server\" \"npm run build\"",
     "dev:server": "nodemon --inspect server/bin/www",
     "server": "node server/bin/www",
     "test": "jest",
