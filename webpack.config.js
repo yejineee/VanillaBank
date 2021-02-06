@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const webpack = require('webpack');
 
 module.exports = {
   mode: 'development',
@@ -48,6 +49,12 @@ module.exports = {
     ...(process.env.NODE_ENV === 'production'
       ? [new MiniCssExtractPlugin({ filename: `[name].css` })]
       : []),
+    new webpack.DefinePlugin({
+      LOGIN_DEV_DEFAULT: JSON.stringify({
+        name: 'yejin',
+        password: 'mypwd',
+      }),
+    }),
   ],
   resolve: {
     alias: {

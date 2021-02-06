@@ -3,9 +3,7 @@ import url from './url';
 
 export default {
   async login() {
-    return axios.post(url.LOGIN, {
-      name: 'yejin',
-      password: 'mypwd',
-    });
+    // eslint-disable-next-line no-undef
+    return axios.post(url.LOGIN, LOGIN_DEV_DEFAULT);
   },
 };
