@@ -50,6 +50,9 @@ module.exports = {
       : []),
   ],
   resolve: {
-    alias: {},
+    alias: {
+      Config: path.resolve(__dirname, 'client/src/config/'),
+      Libs: path.resolve(__dirname, 'client/src/libs/'),
+    },
   },
 };
