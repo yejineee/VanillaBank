@@ -1,11 +1,37 @@
 @import './variable.scss';
 
-#header {
+#sidebar {
   display: flex;
-  position: fix;
-  height: 4rem;
-  justify-content: center;
-  align-items: center;
-  
+  position: fixed;
+  width: 25vw;
+  height: 100vh;
+  padding: 5rem 0;
+  flex-direction: column;
   background: $main;
+  
+  
+}
+
+#header{
+  display: flex;
+  justify-content: center;
+
+  font-size: 3rem;
+  font-weight: 900; 
+  color: white;
+  text-shadow: 0 0 0.3rem#EBAF15;
+}
+
+#nav{
+  margin: 5rem 2rem;
+  
+  & > ol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  & li{
+    margin: 1rem 0;
+    font-size: 2rem;
+  }
 }
