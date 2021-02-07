@@ -42,5 +42,5 @@
 
 | Date | Title |
 | -------- | -------- |
-| 21.02.06 | [로그인, 헤더, axios 설정](https://github.com/yejineee/VanillaBank/wiki/21-02-06-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80https://github.com/yejineee/VanillaBank/wiki/21-02-06-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80)     |
+| 21.02.06 | [로그인, 헤더, axios 설정](https://github.com/yejineee/VanillaBank/wiki/21-02-06-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80)     |
 
